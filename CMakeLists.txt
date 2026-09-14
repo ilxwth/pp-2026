@@ -6,10 +6,11 @@ set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
-# Заставляем MSVC корректно обрабатывать русский UTF-8
+
 if (MSVC)
     add_compile_options(/utf-8)
 endif()
+
 
 add_executable(lw_1 main.cpp)
 
