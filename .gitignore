@@ -1,0 +1,9 @@
+build/ 
+.vs/
+out/
+x64/
+Debug/
+Release/
+*.sln
+*.vcxproj*
+*.user
